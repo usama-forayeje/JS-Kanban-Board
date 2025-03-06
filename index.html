@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Kanban Board</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <div id="todo-board" class="board">
+        <h4>Confirmed</h4>
+        <div class="card">
+          <p class="item">Learn HTML</p>
+          <p class="item">Learn Css</p>
+        </div>
+      </div>
+      <div class="board">
+        <h4>in Progress</h4>
+        <div class="card">
+          </div>
+      </div>
+      <div class="board">
+        <h4>Watching</h4>
+        <div class="card">
+          </div>
+      </div>
+      <div class="board">
+        <h4>Complete</h4>
+        <div class="card">
+          </div>
+      </div>
+    </div>
+    <button id="add-task-btn">Add Order</button>
+  </body>
+  <script src="script.js"></script>
 </html>
